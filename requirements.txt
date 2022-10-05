@@ -1,2 +1,2 @@
 sphinx~=5.0
-sphinx-hoverxref==1.2.0
+sphinx-hoverxref @ git+https://github.com/shiftinv/sphinx-hoverxref@fix/intersphinx-inventory-name
