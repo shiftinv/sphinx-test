@@ -7,3 +7,23 @@ Welcome to sphinx-test's documentation!
 =======================================
 
 [things and stuff here]
+
+
+Intersphinx
+~~~~~~~~~~~
+
+.. code-block:: rst
+
+   :attr:`minute attribute <datetime.time.minute>`
+   :attr:`minute attribute but with inventory name <python:datetime.time.minute>`
+
+   :ref:`datetime.datetime header <python:datetime-datetime>`
+   :ref:`datetime.datetime header with inventory name <python:datetime-datetime>`
+
+This renders to:
+
+| :attr:`minute attribute <datetime.time.minute>`
+| :attr:`minute attribute but with inventory name <python:datetime.time.minute>`
+
+| :ref:`datetime.datetime header <python:datetime-datetime>`
+| :ref:`datetime.datetime header with inventory name <python:datetime-datetime>`
